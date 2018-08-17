@@ -1,0 +1,4129 @@
+{
+  "nodes": {
+    "Plugin dev-404-page": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b390191c8771aeec3782f2be447c8707",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "824c4de35ec3aaf00eff25713e6064fc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7de5984877050926f54f3b8757dd4025",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3e163c489b0fc50c40e4ed15ea8b82ce",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1d331982a9a60e93aaea2bb4945654dc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8eee917d4e2fc929bbac2480522bfcef",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-remove-trailing-slashes": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby-plugin-remove-trailing-slashes",
+      "id": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "name": "gatsby-plugin-remove-trailing-slashes",
+      "version": "1.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby-plugin-remove-trailing-slashes",
+      "packageJson": {
+        "name": "gatsby-plugin-remove-trailing-slashes",
+        "description": "This plugin removes trailing slashes from your project's paths. For example, `yoursite.com/about/` becomes `yoursite.com/about`",
+        "version": "1.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "scott.eckenthal@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "03ec2770498f206d772a1982dd9cd693",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-datocms": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby-source-datocms",
+      "id": "Plugin gatsby-source-datocms",
+      "name": "gatsby-source-datocms",
+      "version": "1.1.14",
+      "pluginOptions": {
+        "plugins": [],
+        "apiToken": "f52751b3f6c9c7bdea32856af60f09",
+        "previewMode": false,
+        "disableLiveReload": false
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onPreExtractQueries",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby-source-datocms",
+      "packageJson": {
+        "name": "gatsby-source-datocms",
+        "description": "Gatsby source plugin for building websites using DatoCMS as data source",
+        "version": "1.1.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "DatoCMS",
+          "email": "support@datocms.com"
+        },
+        "license": "ISC",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "1.0.3"
+          },
+          {
+            "name": "datocms-client",
+            "version": "^0.6.1"
+          },
+          {
+            "name": "fs-extra",
+            "version": ">=4.0.2"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "0.1.4"
+          },
+          {
+            "name": "humps",
+            "version": ">=2.0.1"
+          },
+          {
+            "name": "imgix-url-params",
+            "version": "7.4.0"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": ">=5.0.1"
+          },
+          {
+            "name": "md5",
+            "version": "2.2.1"
+          },
+          {
+            "name": "object-assign",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "object.entries",
+            "version": "^1.0.4"
+          },
+          {
+            "name": "promise-queue",
+            "version": "2.2.3"
+          },
+          {
+            "name": "query-string",
+            "version": "5.0.1"
+          },
+          {
+            "name": "request-promise-native",
+            "version": "1.0.5"
+          },
+          {
+            "name": "svg-inline-loader",
+            "version": "0.8.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "1.6.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "np",
+            "version": "^3.0.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "react-helmet",
+            "version": "*"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c2ebb44c77277ccfbf17d9876159fa5a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "0aeb748ffbe6868c26f99eaa331fe3a0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.277"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-source-datocms",
+            "version": "^1.1.14"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gatsby-plugin-remove-trailing-slashes",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.13.7"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a154351f323ad63a977a5b09b24860bd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/joseph.honess/Documents/joseph/portfolio/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "37fef2060fb5baa77ddeb712aed0acb3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "JH"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-08-17T15:41:29.807Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cd8db14bace49a706e6fa68984c3b68c",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "DatoCmsField-152463": {
+      "id": "DatoCmsField-152463",
+      "originalId": "152463",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "2bec32e26a9f7d3015bc2c5b18bb55da",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "HomePageSEO",
+      "fieldType": "seo",
+      "apiKey": "homepageseo",
+      "hint": "This is the homepage SEO",
+      "localized": false,
+      "validators": {
+        "required": {}
+      },
+      "position": 1,
+      "appeareance": {
+        "editor": "seo",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152467": {
+      "id": "DatoCmsField-152467",
+      "originalId": "152467",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "07b9b8a88e68b65ab48bd4e01474d891",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Header",
+      "fieldType": "link",
+      "apiKey": "header",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemItemType": {
+          "itemTypes": [
+            "39928"
+          ]
+        },
+        "required": {}
+      },
+      "position": 2,
+      "appeareance": {
+        "editor": "link_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152934": {
+      "id": "DatoCmsField-152934",
+      "originalId": "152934",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "1f0e070e648e4c348659bba53343d8f9",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "HeaderTitle",
+      "fieldType": "string",
+      "apiKey": "headertitle",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 3,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152935": {
+      "id": "DatoCmsField-152935",
+      "originalId": "152935",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "e7b4d58f85c9e0a394972abbd32ff6cf",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Hero",
+      "fieldType": "file",
+      "apiKey": "hero",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 4,
+      "appeareance": {
+        "editor": "file",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152942": {
+      "id": "DatoCmsField-152942",
+      "originalId": "152942",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "17d7c7d02b38ee26d6bce662a975b9f9",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Hero text",
+      "fieldType": "string",
+      "apiKey": "hero_text",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 5,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152937": {
+      "id": "DatoCmsField-152937",
+      "originalId": "152937",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "d98df81c136154df7f16df00085ec524",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "About",
+      "fieldType": "file",
+      "apiKey": "about",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 6,
+      "appeareance": {
+        "editor": "file",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152939": {
+      "id": "DatoCmsField-152939",
+      "originalId": "152939",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "0f8addcebccf9b04a8e31159476f17b0",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "AboutText",
+      "fieldType": "string",
+      "apiKey": "abouttext",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 7,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152936": {
+      "id": "DatoCmsField-152936",
+      "originalId": "152936",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "695db178a9a28a958fe34ffabe4e3bf4",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "CV",
+      "fieldType": "file",
+      "apiKey": "cv",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 8,
+      "appeareance": {
+        "editor": "file",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152940": {
+      "id": "DatoCmsField-152940",
+      "originalId": "152940",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "87a1967fde29d57b0cde76a9e3f710ad",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "CVText",
+      "fieldType": "string",
+      "apiKey": "cvtext",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 9,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153525": {
+      "id": "DatoCmsField-153525",
+      "originalId": "153525",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "ab2ea8f6af854a7808582752a807d99a",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "works",
+      "fieldType": "string",
+      "apiKey": "works",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 10,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152938": {
+      "id": "DatoCmsField-152938",
+      "originalId": "152938",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "5d6901d6238aa4f2f5dcc25c5bd1f292",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Contact",
+      "fieldType": "file",
+      "apiKey": "contact",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 11,
+      "appeareance": {
+        "editor": "file",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152941": {
+      "id": "DatoCmsField-152941",
+      "originalId": "152941",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "814e64eb39db456d8b9025de68e879bd",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "ContactText",
+      "fieldType": "string",
+      "apiKey": "contacttext",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 12,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153505": {
+      "id": "DatoCmsField-153505",
+      "originalId": "153505",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "6473cceb5f6301f62d1382cda16cfdeb",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "About Link",
+      "fieldType": "link",
+      "apiKey": "about_link",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemItemType": {
+          "itemTypes": [
+            "39918"
+          ]
+        }
+      },
+      "position": 13,
+      "appeareance": {
+        "editor": "link_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153509": {
+      "id": "DatoCmsField-153509",
+      "originalId": "153509",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "4f2187245060f4c7e17b0767518638da",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Sections",
+      "fieldType": "links",
+      "apiKey": "sections",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemsItemType": {
+          "itemTypes": [
+            "40163"
+          ]
+        }
+      },
+      "position": 14,
+      "appeareance": {
+        "editor": "links_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-39917": {
+      "id": "DatoCmsModel-39917",
+      "originalId": "39917",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "33e307f03b1faecbed409d81547ad30c",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "Homepage",
+      "singleton": true,
+      "sortable": false,
+      "apiKey": "homepage",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-152463",
+        "DatoCmsField-152467",
+        "DatoCmsField-152934",
+        "DatoCmsField-152935",
+        "DatoCmsField-152942",
+        "DatoCmsField-152937",
+        "DatoCmsField-152939",
+        "DatoCmsField-152936",
+        "DatoCmsField-152940",
+        "DatoCmsField-153525",
+        "DatoCmsField-152938",
+        "DatoCmsField-152941",
+        "DatoCmsField-153505",
+        "DatoCmsField-153509"
+      ]
+    },
+    "DatoCmsField-152886": {
+      "id": "DatoCmsField-152886",
+      "originalId": "152886",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "00df0dccc6683f962f2bc274255826db",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Header",
+      "fieldType": "string",
+      "apiKey": "header",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 1,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152928": {
+      "id": "DatoCmsField-152928",
+      "originalId": "152928",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "358ae113c57ed55c3fc4d9661d95e5ff",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "HeaderLink",
+      "fieldType": "link",
+      "apiKey": "headerlink",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemItemType": {
+          "itemTypes": [
+            "39928"
+          ]
+        },
+        "required": {}
+      },
+      "position": 2,
+      "appeareance": {
+        "editor": "link_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152948": {
+      "id": "DatoCmsField-152948",
+      "originalId": "152948",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "d41a03ff0e1766aa7624e46f33b1e0ee",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "About",
+      "fieldType": "seo",
+      "apiKey": "about",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 5,
+      "appeareance": {
+        "editor": "seo",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153644": {
+      "id": "DatoCmsField-153644",
+      "originalId": "153644",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "c1a53383e6aeb6b721914c6032d546c6",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "title",
+      "fieldType": "string",
+      "apiKey": "title",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 6,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-154084": {
+      "id": "DatoCmsField-154084",
+      "originalId": "154084",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "31a612723648d1929bdd405633a99051",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "pictureMontage",
+      "fieldType": "file",
+      "apiKey": "picturemontage",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 7,
+      "appeareance": {
+        "editor": "file",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-154198": {
+      "id": "DatoCmsField-154198",
+      "originalId": "154198",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "2f507ebc9015c54276d3806b5fe933a3",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "para1",
+      "fieldType": "text",
+      "apiKey": "para1",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 8,
+      "appeareance": {
+        "editor": "markdown",
+        "parameters": {
+          "toolbar": [
+            "heading",
+            "bold",
+            "italic",
+            "strikethrough",
+            "unordered_list",
+            "ordered_list",
+            "quote",
+            "link",
+            "image"
+          ]
+        },
+        "type": "markdown"
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-154199": {
+      "id": "DatoCmsField-154199",
+      "originalId": "154199",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "d8ca30f1c17fe95bc07ba09b94ab48e8",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "para2",
+      "fieldType": "text",
+      "apiKey": "para2",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 9,
+      "appeareance": {
+        "editor": "markdown",
+        "parameters": {
+          "toolbar": [
+            "heading",
+            "bold",
+            "italic",
+            "strikethrough",
+            "unordered_list",
+            "ordered_list",
+            "quote",
+            "link",
+            "image"
+          ]
+        },
+        "type": "markdown"
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-154200": {
+      "id": "DatoCmsField-154200",
+      "originalId": "154200",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "eeea77e4c55e37df8e46049636ef7e70",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "para3",
+      "fieldType": "text",
+      "apiKey": "para3",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 10,
+      "appeareance": {
+        "editor": "markdown",
+        "parameters": {
+          "toolbar": [
+            "heading",
+            "bold",
+            "italic",
+            "strikethrough",
+            "unordered_list",
+            "ordered_list",
+            "quote",
+            "link",
+            "image"
+          ]
+        },
+        "type": "markdown"
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-154201": {
+      "id": "DatoCmsField-154201",
+      "originalId": "154201",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "193a9518bea1ecd3aac84f6b5178154c",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "para4",
+      "fieldType": "text",
+      "apiKey": "para4",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 11,
+      "appeareance": {
+        "editor": "markdown",
+        "parameters": {
+          "toolbar": [
+            "heading",
+            "bold",
+            "italic",
+            "strikethrough",
+            "unordered_list",
+            "ordered_list",
+            "quote",
+            "link",
+            "image"
+          ]
+        },
+        "type": "markdown"
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-154202": {
+      "id": "DatoCmsField-154202",
+      "originalId": "154202",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "d30885c7f81fe439d8e104a09eba391e",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "para5",
+      "fieldType": "text",
+      "apiKey": "para5",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 12,
+      "appeareance": {
+        "editor": "markdown",
+        "parameters": {
+          "toolbar": [
+            "heading",
+            "bold",
+            "italic",
+            "strikethrough",
+            "unordered_list",
+            "ordered_list",
+            "quote",
+            "link",
+            "image"
+          ]
+        },
+        "type": "markdown"
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-39918": {
+      "id": "DatoCmsModel-39918",
+      "originalId": "39918",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "ad27026060b358cccda50f175d873987",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "about",
+      "singleton": true,
+      "sortable": false,
+      "apiKey": "about",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-152886",
+        "DatoCmsField-152928",
+        "DatoCmsField-152948",
+        "DatoCmsField-153644",
+        "DatoCmsField-154084",
+        "DatoCmsField-154198",
+        "DatoCmsField-154199",
+        "DatoCmsField-154200",
+        "DatoCmsField-154201",
+        "DatoCmsField-154202"
+      ]
+    },
+    "DatoCmsField-152918": {
+      "id": "DatoCmsField-152918",
+      "originalId": "152918",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "5a38966a8fcc145fefc6e050d1e68b0a",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Header",
+      "fieldType": "string",
+      "apiKey": "header",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 1,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152919": {
+      "id": "DatoCmsField-152919",
+      "originalId": "152919",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "25356308c1f8adec6878a0ad69ca72bb",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "text",
+      "fieldType": "text",
+      "apiKey": "text",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 2,
+      "appeareance": {
+        "editor": "markdown",
+        "parameters": {
+          "toolbar": [
+            "heading",
+            "bold",
+            "italic",
+            "strikethrough",
+            "unordered_list",
+            "ordered_list",
+            "quote",
+            "link",
+            "image"
+          ]
+        },
+        "type": "markdown"
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152922": {
+      "id": "DatoCmsField-152922",
+      "originalId": "152922",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "b4ed8df836670b0fe5db868fd36dd095",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "CV",
+      "fieldType": "seo",
+      "apiKey": "cv",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 3,
+      "appeareance": {
+        "editor": "seo",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152931": {
+      "id": "DatoCmsField-152931",
+      "originalId": "152931",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "8e19b9c4e1f7f355af78f4d611b1f9f4",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "HeaderLink",
+      "fieldType": "link",
+      "apiKey": "headerlink",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemItemType": {
+          "itemTypes": [
+            "39928"
+          ]
+        },
+        "required": {}
+      },
+      "position": 4,
+      "appeareance": {
+        "editor": "link_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-39919": {
+      "id": "DatoCmsModel-39919",
+      "originalId": "39919",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "f6cc423cb22c8a4ce24db62d2ff1a594",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "CV",
+      "singleton": false,
+      "sortable": false,
+      "apiKey": "cv",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-152918",
+        "DatoCmsField-152919",
+        "DatoCmsField-152922",
+        "DatoCmsField-152931"
+      ]
+    },
+    "DatoCmsField-152920": {
+      "id": "DatoCmsField-152920",
+      "originalId": "152920",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "6cf2dfc83816d3a375ab8628ad9a1475",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Header",
+      "fieldType": "string",
+      "apiKey": "header",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 1,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152921": {
+      "id": "DatoCmsField-152921",
+      "originalId": "152921",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "5c37e11fc22b4399a3fd15a59db9ef3b",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "CV",
+      "fieldType": "link",
+      "apiKey": "cv",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemItemType": {
+          "itemTypes": [
+            "39919"
+          ]
+        },
+        "required": {}
+      },
+      "position": 2,
+      "appeareance": {
+        "editor": "link_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152945": {
+      "id": "DatoCmsField-152945",
+      "originalId": "152945",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "268a93ab33fb686857b13a5cd42d4511",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "HeaderLink",
+      "fieldType": "link",
+      "apiKey": "headerlink",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemItemType": {
+          "itemTypes": [
+            "39928"
+          ]
+        },
+        "required": {}
+      },
+      "position": 3,
+      "appeareance": {
+        "editor": "link_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152950": {
+      "id": "DatoCmsField-152950",
+      "originalId": "152950",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "53bcc27d609f827b3795d8c1ed49040c",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Works",
+      "fieldType": "seo",
+      "apiKey": "works",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 4,
+      "appeareance": {
+        "editor": "seo",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153727": {
+      "id": "DatoCmsField-153727",
+      "originalId": "153727",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "78164898c56f8af36a5b37e96b217067",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "hero",
+      "fieldType": "file",
+      "apiKey": "hero",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 5,
+      "appeareance": {
+        "editor": "file",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153728": {
+      "id": "DatoCmsField-153728",
+      "originalId": "153728",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "c42f7b77a6dc3431517a0ece3ce04855",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "CVHero",
+      "fieldType": "string",
+      "apiKey": "cvhero",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 6,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-39920": {
+      "id": "DatoCmsModel-39920",
+      "originalId": "39920",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "7625f9fe82ad0aedf01c5d8cf9b5c247",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "Work",
+      "singleton": false,
+      "sortable": false,
+      "apiKey": "work",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-152920",
+        "DatoCmsField-152921",
+        "DatoCmsField-152945",
+        "DatoCmsField-152950",
+        "DatoCmsField-153727",
+        "DatoCmsField-153728"
+      ]
+    },
+    "DatoCmsField-152927": {
+      "id": "DatoCmsField-152927",
+      "originalId": "152927",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "25fd8672e0d743468d958d6357d8ac8e",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "header",
+      "fieldType": "link",
+      "apiKey": "header",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemItemType": {
+          "itemTypes": [
+            "39928"
+          ]
+        },
+        "required": {}
+      },
+      "position": 5,
+      "appeareance": {
+        "editor": "link_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152943": {
+      "id": "DatoCmsField-152943",
+      "originalId": "152943",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "c2b35011c442674973ba367a692b339d",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Contact",
+      "fieldType": "string",
+      "apiKey": "contact",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 6,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152901": {
+      "id": "DatoCmsField-152901",
+      "originalId": "152901",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "93dfbb9b87c6dbf151f0048e5a679899",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "First Name",
+      "fieldType": "string",
+      "apiKey": "first_name",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 7,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152902": {
+      "id": "DatoCmsField-152902",
+      "originalId": "152902",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "80d355614d6500c2fe0599a54f07b94c",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Last Name",
+      "fieldType": "string",
+      "apiKey": "last_name",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 8,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152894": {
+      "id": "DatoCmsField-152894",
+      "originalId": "152894",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "f878750809c81b9fca820d0fbf55705b",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "subject",
+      "fieldType": "string",
+      "apiKey": "subject",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 9,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152903": {
+      "id": "DatoCmsField-152903",
+      "originalId": "152903",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "6b174ed0377444599002389a6b8818af",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Email Adress",
+      "fieldType": "string",
+      "apiKey": "email_adress",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 10,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152890": {
+      "id": "DatoCmsField-152890",
+      "originalId": "152890",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "a73a2edba23e3b6e261f94a8958295df",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "message",
+      "fieldType": "text",
+      "apiKey": "message",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 11,
+      "appeareance": {
+        "editor": "markdown",
+        "parameters": {
+          "toolbar": [
+            "heading",
+            "bold",
+            "italic",
+            "strikethrough",
+            "unordered_list",
+            "ordered_list",
+            "quote",
+            "link",
+            "image"
+          ]
+        },
+        "type": "markdown"
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152949": {
+      "id": "DatoCmsField-152949",
+      "originalId": "152949",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "5d098fc3c36a925035e1970012f7a4fc",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Contactseo",
+      "fieldType": "seo",
+      "apiKey": "contactseo",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 13,
+      "appeareance": {
+        "editor": "seo",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153736": {
+      "id": "DatoCmsField-153736",
+      "originalId": "153736",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "4b334dbb4d5e1464545e8908ddcbdc86",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "background",
+      "fieldType": "file",
+      "apiKey": "background",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 14,
+      "appeareance": {
+        "editor": "file",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153781": {
+      "id": "DatoCmsField-153781",
+      "originalId": "153781",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "47f65168ec8efb7a9533e6e6bd2a2ab9",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "headerTitle",
+      "fieldType": "string",
+      "apiKey": "headertitle",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 15,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-39921": {
+      "id": "DatoCmsModel-39921",
+      "originalId": "39921",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "d236f49a30464bce97b933370f05b1ef",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "contact",
+      "singleton": true,
+      "sortable": false,
+      "apiKey": "contact",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-152927",
+        "DatoCmsField-152943",
+        "DatoCmsField-152901",
+        "DatoCmsField-152902",
+        "DatoCmsField-152894",
+        "DatoCmsField-152903",
+        "DatoCmsField-152890",
+        "DatoCmsField-152949",
+        "DatoCmsField-153736",
+        "DatoCmsField-153781"
+      ]
+    },
+    "DatoCmsField-152464": {
+      "id": "DatoCmsField-152464",
+      "originalId": "152464",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "a86d0c3934f3424b0819b33f304e5425",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "homeLink",
+      "fieldType": "string",
+      "apiKey": "homelink",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "required": {}
+      },
+      "position": 1,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152470": {
+      "id": "DatoCmsField-152470",
+      "originalId": "152470",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "b96e6f41ee5624a72a92dea64c1376d9",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "HomeLinkSlug",
+      "fieldType": "slug",
+      "apiKey": "homelinkslug",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "slugTitleField": {
+          "titleFieldId": "152464"
+        },
+        "unique": {}
+      },
+      "position": 2,
+      "appeareance": {
+        "editor": "slug",
+        "parameters": {
+          "urlPrefix": ""
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152476": {
+      "id": "DatoCmsField-152476",
+      "originalId": "152476",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "eb114669cebb473c90c294e5e5fe4d09",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Nav",
+      "fieldType": "links",
+      "apiKey": "nav",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemsItemType": {
+          "itemTypes": [
+            "39930"
+          ]
+        }
+      },
+      "position": 3,
+      "appeareance": {
+        "editor": "links_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-39928": {
+      "id": "DatoCmsModel-39928",
+      "originalId": "39928",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "542c408a8f1c0cbec60c0ccc759dead6",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "Header",
+      "singleton": true,
+      "sortable": false,
+      "apiKey": "header",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-152464",
+        "DatoCmsField-152470",
+        "DatoCmsField-152476"
+      ]
+    },
+    "DatoCmsField-152465": {
+      "id": "DatoCmsField-152465",
+      "originalId": "152465",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "81336f7d6404a73e511fe030c32eb56a",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Header",
+      "fieldType": "link",
+      "apiKey": "header",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemItemType": {
+          "itemTypes": [
+            "39928"
+          ]
+        },
+        "required": {}
+      },
+      "position": 1,
+      "appeareance": {
+        "editor": "link_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-39929": {
+      "id": "DatoCmsModel-39929",
+      "originalId": "39929",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "918395313d3a5a9885992bbc4338ac6c",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "Page",
+      "singleton": false,
+      "sortable": false,
+      "apiKey": "page",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-152465"
+      ]
+    },
+    "DatoCmsField-152473": {
+      "id": "DatoCmsField-152473",
+      "originalId": "152473",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "e26f31c8c45cd450bdb1d141dff8d7bd",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "LinkText",
+      "fieldType": "string",
+      "apiKey": "linktext",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "required": {},
+        "unique": {}
+      },
+      "position": 1,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-152474": {
+      "id": "DatoCmsField-152474",
+      "originalId": "152474",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "0fd08b060077a50f39ccc822a9cdb309",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "LinkUrl",
+      "fieldType": "slug",
+      "apiKey": "linkurl",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "slugTitleField": {
+          "titleFieldId": "152473"
+        },
+        "required": {},
+        "unique": {}
+      },
+      "position": 2,
+      "appeareance": {
+        "editor": "slug",
+        "parameters": {
+          "urlPrefix": ""
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-39930": {
+      "id": "DatoCmsModel-39930",
+      "originalId": "39930",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "ba4b5f87f08d8fae14143aa6e552c677",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "Link",
+      "singleton": false,
+      "sortable": false,
+      "apiKey": "link",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-152473",
+        "DatoCmsField-152474"
+      ]
+    },
+    "DatoCmsField-153506": {
+      "id": "DatoCmsField-153506",
+      "originalId": "153506",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "7a592c5f7f4bb20e95dd3a045e20b4e0",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Background Image",
+      "fieldType": "file",
+      "apiKey": "background_image",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "required": {}
+      },
+      "position": 1,
+      "appeareance": {
+        "editor": "file",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153507": {
+      "id": "DatoCmsField-153507",
+      "originalId": "153507",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "7d7f3c59434d1ad8f6e225f4f5bdf8a3",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Title",
+      "fieldType": "string",
+      "apiKey": "title",
+      "hint": null,
+      "localized": false,
+      "validators": {},
+      "position": 2,
+      "appeareance": {
+        "editor": "single_line",
+        "parameters": {
+          "heading": false
+        }
+      },
+      "defaultValue": null
+    },
+    "DatoCmsField-153508": {
+      "id": "DatoCmsField-153508",
+      "originalId": "153508",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsField",
+        "contentDigest": "765b4942c4c6706688207cd9a9a08276",
+        "owner": "gatsby-source-datocms"
+      },
+      "label": "Page Link",
+      "fieldType": "links",
+      "apiKey": "page_link",
+      "hint": null,
+      "localized": false,
+      "validators": {
+        "itemsItemType": {
+          "itemTypes": [
+            "39917",
+            "39918",
+            "39919",
+            "39920",
+            "39921"
+          ]
+        }
+      },
+      "position": 3,
+      "appeareance": {
+        "editor": "links_select",
+        "parameters": {}
+      },
+      "defaultValue": null
+    },
+    "DatoCmsModel-40163": {
+      "id": "DatoCmsModel-40163",
+      "originalId": "40163",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsModel",
+        "contentDigest": "60ce73f8beb6a5b8ba6a69d3032d34ba",
+        "owner": "gatsby-source-datocms"
+      },
+      "name": "Media Link",
+      "singleton": false,
+      "sortable": false,
+      "apiKey": "media_link",
+      "orderingDirection": null,
+      "tree": false,
+      "modularBlock": false,
+      "draftModeActive": false,
+      "allLocalesRequired": true,
+      "fields___NODE": [
+        "DatoCmsField-153506",
+        "DatoCmsField-153507",
+        "DatoCmsField-153508"
+      ]
+    },
+    "DatoCmsAsset-347806": {
+      "id": "DatoCmsAsset-347806",
+      "parent": "DatoCmsHomepage-361358-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "0c985a4e71efe8a6b4ccd0041ef26604",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "jpg",
+      "size": 37016,
+      "width": 480,
+      "height": 91,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534431850-image-4.jpg"
+    },
+    "DatoCmsAsset-347829": {
+      "id": "DatoCmsAsset-347829",
+      "parent": "DatoCmsHomepage-361358-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "fb3afca49a72bf9f9c86832386325377",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "jpg",
+      "size": 286707,
+      "width": 485,
+      "height": 435,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534433277-rectangle-2-1-4.jpg"
+    },
+    "DatoCmsAsset-347818": {
+      "id": "DatoCmsAsset-347818",
+      "parent": "DatoCmsHomepage-361358-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "df99e24619891b6212e32629ee844304",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "jpg",
+      "size": 191697,
+      "width": 478,
+      "height": 429,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534432807-rectangle-2-3-2.jpg"
+    },
+    "DatoCmsAsset-347833": {
+      "id": "DatoCmsAsset-347833",
+      "parent": "DatoCmsHomepage-361358-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "bfcd867312df8885b331272ab2c22824",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "jpg",
+      "size": 428873,
+      "width": 494,
+      "height": 447,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534433413-rectangle-2-2-5.jpg"
+    },
+    "DatoCmsHomepage-361358-enSeoMetaTags": {
+      "id": "DatoCmsHomepage-361358-enSeoMetaTags",
+      "parent": "DatoCmsHomepage-361358-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "Joseph Honess' portfolio"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "Joseph Honess' portfolio"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "Joseph Honess' portfolio"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "description",
+            "content": "Hey! I'm Joseph and this is my portfolio."
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:description",
+            "content": "Hey! I'm Joseph and this is my portfolio."
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:description",
+            "content": "Hey! I'm Joseph and this is my portfolio."
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-16T15:30:18Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:image",
+            "content": "https://www.datocms-assets.com/6813/1534433413-rectangle-2-2-5.jpg"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:image",
+            "content": "https://www.datocms-assets.com/6813/1534433413-rectangle-2-2-5.jpg"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "b2e36c48d9ab71464b019fe551c62259",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsHeader-361359-enSeoMetaTags": {
+      "id": "DatoCmsHeader-361359-enSeoMetaTags",
+      "parent": "DatoCmsHeader-361359-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "JH"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "JH"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "JH"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-10T10:59:40Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "c38ccb8c00eb36002030e512769ed36e",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsLink-361375-enSeoMetaTags": {
+      "id": "DatoCmsLink-361375-enSeoMetaTags",
+      "parent": "DatoCmsLink-361375-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "About"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "About"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "About"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-10T10:56:47Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "e0ea4c2788b63a349793ab00450a8f01",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsLink-361376-enSeoMetaTags": {
+      "id": "DatoCmsLink-361376-enSeoMetaTags",
+      "parent": "DatoCmsLink-361376-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "Work"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "Work"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "Work"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-10T10:56:56Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "a9462ff2d1a661abe187dad42489413b",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsLink-361377-enSeoMetaTags": {
+      "id": "DatoCmsLink-361377-enSeoMetaTags",
+      "parent": "DatoCmsLink-361377-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "CV"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "CV"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "CV"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-10T10:58:24Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "1833e26f913b6d3555a9a884ff51d4aa",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsLink-361378-enSeoMetaTags": {
+      "id": "DatoCmsLink-361378-enSeoMetaTags",
+      "parent": "DatoCmsLink-361378-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "Contact"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "Contact"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "Contact"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-10T10:58:33Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "ad2936d2fd063fac105e3ea94ca5af79",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsContact-362263-enMessageTextNode": {
+      "id": "DatoCmsContact-362263-enMessageTextNode",
+      "parent": "DatoCmsContact-362263-en",
+      "children": [],
+      "message": " ",
+      "internal": {
+        "type": "DatoCmsContactMessageTextNode",
+        "mediaType": "text/markdown",
+        "content": " ",
+        "contentDigest": "7215ee9c7d9dc229d2921a40e899ec5f",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAsset-347599": {
+      "id": "DatoCmsAsset-347599",
+      "parent": "DatoCmsContact-362263-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "6c49913b0c2df99fcd42d2cf793d284e",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "jpg",
+      "size": 4779509,
+      "width": 5184,
+      "height": 3296,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534412068-vincentiu-solomon-4602-unsplash.jpg"
+    },
+    "DatoCmsContact-362263-enSeoMetaTags": {
+      "id": "DatoCmsContact-362263-enSeoMetaTags",
+      "parent": "DatoCmsContact-362263-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "Contact Me"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "Contact Me"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "Contact Me"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "description",
+            "content": "Contact me about about any questions or work. "
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:description",
+            "content": "Contact me about about any questions or work. "
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:description",
+            "content": "Contact me about about any questions or work. "
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-16T11:38:12Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:image",
+            "content": "https://www.datocms-assets.com/6813/1534412068-vincentiu-solomon-4602-unsplash.jpg"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:image",
+            "content": "https://www.datocms-assets.com/6813/1534412068-vincentiu-solomon-4602-unsplash.jpg"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "94466adb22af165fd9810cfe2e1dc3fc",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAsset-348212": {
+      "id": "DatoCmsAsset-348212",
+      "parent": "DatoCmsAbout-362286-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "07372665002b48414cdcb12f43836a02",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "png",
+      "size": 1645017,
+      "width": 676,
+      "height": 1244,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534514950-screen-shot-2018-08-17-at-11-44-11.png"
+    },
+    "DatoCmsAbout-362286-enPara1TextNode": {
+      "id": "DatoCmsAbout-362286-enPara1TextNode",
+      "parent": "DatoCmsAbout-362286-en",
+      "children": [],
+      "para1": "Hey! My name is Joseph Honess and I am a secondary school student at Mossbourne Community Academy in Hackney, London. I grew up with my mum and my sister. I also have many cats who are getting old; they are quite tranquil although sometimes annoying when they seek attention.",
+      "internal": {
+        "type": "DatoCmsAboutPara1TextNode",
+        "mediaType": "text/markdown",
+        "content": "Hey! My name is Joseph Honess and I am a secondary school student at Mossbourne Community Academy in Hackney, London. I grew up with my mum and my sister. I also have many cats who are getting old; they are quite tranquil although sometimes annoying when they seek attention.",
+        "contentDigest": "fdb41986039b3e9ce5d76ca7651748c5",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAbout-362286-enPara2TextNode": {
+      "id": "DatoCmsAbout-362286-enPara2TextNode",
+      "parent": "DatoCmsAbout-362286-en",
+      "children": [],
+      "para2": "I enjoy coding and gaming and aspire to become an accomplished web and game developer. I plan on going on to 6th form before starting a degree apprenticeship in a company that involves software development. ",
+      "internal": {
+        "type": "DatoCmsAboutPara2TextNode",
+        "mediaType": "text/markdown",
+        "content": "I enjoy coding and gaming and aspire to become an accomplished web and game developer. I plan on going on to 6th form before starting a degree apprenticeship in a company that involves software development. ",
+        "contentDigest": "b1208a051231813d4866a3943400e249",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAbout-362286-enPara3TextNode": {
+      "id": "DatoCmsAbout-362286-enPara3TextNode",
+      "parent": "DatoCmsAbout-362286-en",
+      "children": [],
+      "para3": "My hobbies involve gaming, coding, watching anime and rowing. While i am passionate about all of these, rowing takes up an especially large amount of my time as I train multiple times every day from Monday to Saturday. I enjoy rowing as it is more sociable than my other hobbies although I enjoy playing team video-games while talking to my friends. I also like it because of the fitness aspect, rowing keeps me fit even when I sit in my chair for the rest of my free time. ",
+      "internal": {
+        "type": "DatoCmsAboutPara3TextNode",
+        "mediaType": "text/markdown",
+        "content": "My hobbies involve gaming, coding, watching anime and rowing. While i am passionate about all of these, rowing takes up an especially large amount of my time as I train multiple times every day from Monday to Saturday. I enjoy rowing as it is more sociable than my other hobbies although I enjoy playing team video-games while talking to my friends. I also like it because of the fitness aspect, rowing keeps me fit even when I sit in my chair for the rest of my free time. ",
+        "contentDigest": "f7c74b3441190c6b492415ff7544bce6",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAbout-362286-enPara4TextNode": {
+      "id": "DatoCmsAbout-362286-enPara4TextNode",
+      "parent": "DatoCmsAbout-362286-en",
+      "children": [],
+      "para4": "I listen to music all the time and although I listen to all sorts of music my favorite is hip-hop and rap. My favorite rapper is NF but I also really like Hopsin, I think that both of them rap about life and they have very good lyrics although Hopsin is quite aggressive and rude. ",
+      "internal": {
+        "type": "DatoCmsAboutPara4TextNode",
+        "mediaType": "text/markdown",
+        "content": "I listen to music all the time and although I listen to all sorts of music my favorite is hip-hop and rap. My favorite rapper is NF but I also really like Hopsin, I think that both of them rap about life and they have very good lyrics although Hopsin is quite aggressive and rude. ",
+        "contentDigest": "88f02462c8da69ff06f3a67d8b280dce",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAbout-362286-enPara5TextNode": {
+      "id": "DatoCmsAbout-362286-enPara5TextNode",
+      "parent": "DatoCmsAbout-362286-en",
+      "children": [],
+      "para5": "I do not like nuts, beans or spiders but other than that i am not fussy. I love meat. I would eat almost any meat but i also really enjoy Italian food like spaghetti.",
+      "internal": {
+        "type": "DatoCmsAboutPara5TextNode",
+        "mediaType": "text/markdown",
+        "content": "I do not like nuts, beans or spiders but other than that i am not fussy. I love meat. I would eat almost any meat but i also really enjoy Italian food like spaghetti.",
+        "contentDigest": "96bfc6dcc70f62ec28cd73b36916b8d1",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAbout-362286-enSeoMetaTags": {
+      "id": "DatoCmsAbout-362286-enSeoMetaTags",
+      "parent": "DatoCmsAbout-362286-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "About Me"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "About Me"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "About Me"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "description",
+            "content": "All About Me! (My interests, hobbies, likes and dislikes)"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:description",
+            "content": "All About Me! (My interests, hobbies, likes and dislikes)"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:description",
+            "content": "All About Me! (My interests, hobbies, likes and dislikes)"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-17T14:24:23Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:image",
+            "content": "https://www.datocms-assets.com/6813/1534514950-screen-shot-2018-08-17-at-11-44-11.png"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:image",
+            "content": "https://www.datocms-assets.com/6813/1534514950-screen-shot-2018-08-17-at-11-44-11.png"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "2a98d51c527f3c0ed87c3483f54ac797",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsCv-362287-enTextTextNode": {
+      "id": "DatoCmsCv-362287-enTextTextNode",
+      "parent": "DatoCmsCv-362287-en",
+      "children": [],
+      "text": "Joseph Honess \n\nAddress:                  6 Conrad House, 6 Clifton Grove, E81DL \n\nTelephone:                +44   7835 472091 \n\nEmail:                    josephhoness1@gmail.com \n\n\nI am an extremely hard working and friendly individual who enjoys communicating with others from different cultures and backgrounds. I am also a highly self-motivated and outgoing person that enjoys and endeavors to complete every task to a high standard. \n\nI am currently in secondary school and I am planning to go to 6th form and then on to university or an apprenticeship degree so I am looking for a job for the weekends or the evenings. I am looking for any job without a qualification requirement. I am good at working with others, adults and kids of all ethnicities and backgrounds and I can execute most complex instructions to a good standard.  \n\nI haven’t yet completed my GCSEs however of the 11 that I am doing I am predicted to get:  \n\nEnglish language (7), English literature (7), Math (9), Biology (7), Chemistry (8), Physics (6), Spanish (7), Computer science (7), Economics (7), History (8), and I have already completed my RS GCSE in which I got a () \n\nAlso, I have completed work experience in multiple different areas of work: \n\nJuly-August 2018           E2X      - I did a four week work experience course in the e-commerce company E2X where I learned lots of valuable skills such as working well with others and all sorts of computer skills. It also advanced my problem-solving skills and my ability to complete tasks individually as I had to fix errors in code and persevere independently.  \n\nAugust 2018    Thrive Microfinance Zimbabwe - I experienced two weeks of work with Thrive Microfinance Zimbabwe where I did some pre-building work which involved removing 2 walls, a lean-to, and a kitchen along with general cleaning. This work helped me advance my technical ability using tools and emphasized the importance of safety while working.  \n\nBetween my work experience and my personal interests, I have gained valuable IT skills including touch typing, using Microsoft applications like word and excel. I can also program in front end languages like (html, css, js) React using GatsbyJS to create websites.I can also use GIT on the terminal and on github for source control for projects. \n\nWhen I'm at home I like to spend my time listening to music (hip hop), playing videogames like league of legends and call of duty and I also enjoy watching anime in my free time. One of my hobbies is rowing; I train for rowing every day from Monday to Saturday and I went to the London Youth Games 2018 where I placed 2nd in the individual race for my age group for indoor rowing. I also play other sports like football and basketball but I don’t play seriously.  \n\nReferences are available on request, \n\nThank you ",
+      "internal": {
+        "type": "DatoCmsCvTextTextNode",
+        "mediaType": "text/markdown",
+        "content": "Joseph Honess \n\nAddress:                  6 Conrad House, 6 Clifton Grove, E81DL \n\nTelephone:                +44   7835 472091 \n\nEmail:                    josephhoness1@gmail.com \n\n\nI am an extremely hard working and friendly individual who enjoys communicating with others from different cultures and backgrounds. I am also a highly self-motivated and outgoing person that enjoys and endeavors to complete every task to a high standard. \n\nI am currently in secondary school and I am planning to go to 6th form and then on to university or an apprenticeship degree so I am looking for a job for the weekends or the evenings. I am looking for any job without a qualification requirement. I am good at working with others, adults and kids of all ethnicities and backgrounds and I can execute most complex instructions to a good standard.  \n\nI haven’t yet completed my GCSEs however of the 11 that I am doing I am predicted to get:  \n\nEnglish language (7), English literature (7), Math (9), Biology (7), Chemistry (8), Physics (6), Spanish (7), Computer science (7), Economics (7), History (8), and I have already completed my RS GCSE in which I got a () \n\nAlso, I have completed work experience in multiple different areas of work: \n\nJuly-August 2018           E2X      - I did a four week work experience course in the e-commerce company E2X where I learned lots of valuable skills such as working well with others and all sorts of computer skills. It also advanced my problem-solving skills and my ability to complete tasks individually as I had to fix errors in code and persevere independently.  \n\nAugust 2018    Thrive Microfinance Zimbabwe - I experienced two weeks of work with Thrive Microfinance Zimbabwe where I did some pre-building work which involved removing 2 walls, a lean-to, and a kitchen along with general cleaning. This work helped me advance my technical ability using tools and emphasized the importance of safety while working.  \n\nBetween my work experience and my personal interests, I have gained valuable IT skills including touch typing, using Microsoft applications like word and excel. I can also program in front end languages like (html, css, js) React using GatsbyJS to create websites.I can also use GIT on the terminal and on github for source control for projects. \n\nWhen I'm at home I like to spend my time listening to music (hip hop), playing videogames like league of legends and call of duty and I also enjoy watching anime in my free time. One of my hobbies is rowing; I train for rowing every day from Monday to Saturday and I went to the London Youth Games 2018 where I placed 2nd in the individual race for my age group for indoor rowing. I also play other sports like football and basketball but I don’t play seriously.  \n\nReferences are available on request, \n\nThank you ",
+        "contentDigest": "f33fd3d7bf02e5ddbae676fb3327bbac",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsCv-362287-enSeoMetaTags": {
+      "id": "DatoCmsCv-362287-enSeoMetaTags",
+      "parent": "DatoCmsCv-362287-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "CV"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "CV"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "CV"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "description",
+            "content": "My CV! (My experiences, skills, grades, aspirations, interests and personal info)"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:description",
+            "content": "My CV! (My experiences, skills, grades, aspirations, interests and personal info)"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:description",
+            "content": "My CV! (My experiences, skills, grades, aspirations, interests and personal info)"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-16T09:00:22Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "6f37318ff551070108bc674f5c163daa",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAsset-347577": {
+      "id": "DatoCmsAsset-347577",
+      "parent": "DatoCmsWork-362288-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "45b399c53acb327b25bc558872bcb598",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "jpg",
+      "size": 4785864,
+      "width": 6000,
+      "height": 3582,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534408161-tim-arterbury-126157-unsplash.jpg"
+    },
+    "DatoCmsWork-362288-enSeoMetaTags": {
+      "id": "DatoCmsWork-362288-enSeoMetaTags",
+      "parent": "DatoCmsWork-362288-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "My Work"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "My Work"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "My Work"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "description",
+            "content": "All of my works so far."
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:description",
+            "content": "All of my works so far."
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:description",
+            "content": "All of my works so far."
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-16T08:30:41Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:image",
+            "content": "https://www.datocms-assets.com/6813/1534408161-tim-arterbury-126157-unsplash.jpg"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:image",
+            "content": "https://www.datocms-assets.com/6813/1534408161-tim-arterbury-126157-unsplash.jpg"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "c42e7175faa696ff9a46a6fcc212d3fe",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAsset-346449": {
+      "id": "DatoCmsAsset-346449",
+      "parent": "DatoCmsMediaLink-363403-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "5d6927b57559b8692c95a96512ae4a30",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "jpeg",
+      "size": 8523,
+      "width": 267,
+      "height": 189,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534154438-gokuxluffy.jpeg"
+    },
+    "DatoCmsMediaLink-363403-enSeoMetaTags": {
+      "id": "DatoCmsMediaLink-363403-enSeoMetaTags",
+      "parent": "DatoCmsMediaLink-363403-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "About Me"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "About Me"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "About Me"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-15T08:46:33Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "e4de26c0bfafbd69e54e2c25cba950d2",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsAsset-346446": {
+      "id": "DatoCmsAsset-346446",
+      "parent": "DatoCmsMediaLink-363404-en",
+      "children": [],
+      "internal": {
+        "type": "DatoCmsAsset",
+        "contentDigest": "b7006311c40ef869f3ace70e237a0e03",
+        "owner": "gatsby-source-datocms"
+      },
+      "format": "jpg",
+      "size": 80509,
+      "width": 1000,
+      "height": 787,
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/6813/1534154267-nf.jpg"
+    },
+    "DatoCmsMediaLink-363404-enSeoMetaTags": {
+      "id": "DatoCmsMediaLink-363404-enSeoMetaTags",
+      "parent": "DatoCmsMediaLink-363404-en",
+      "children": [],
+      "tags": [
+        {
+          "tagName": "title",
+          "content": "CV"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:title",
+            "content": "CV"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:title",
+            "content": "CV"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "article:modified_time",
+            "content": "2018-08-15T08:46:49Z"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:locale",
+            "content": "en_EN"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:type",
+            "content": "article"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "property": "og:image",
+            "content": "https://www.datocms-assets.com/6813/1534154267-nf.jpg"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "twitter:image",
+            "content": "https://www.datocms-assets.com/6813/1534154267-nf.jpg"
+          }
+        }
+      ],
+      "internal": {
+        "type": "DatoCmsSeoMetaTags",
+        "contentDigest": "38c75ba4ad1a871563be5f2473cc9481",
+        "owner": "gatsby-source-datocms"
+      }
+    },
+    "DatoCmsHomepage-361358-en": {
+      "id": "DatoCmsHomepage-361358-en",
+      "originalId": "361358",
+      "parent": null,
+      "children": [
+        "DatoCmsAsset-347833",
+        "DatoCmsHomepage-361358-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsHomepage",
+        "contentDigest": "216903e1b0d190711c90617e18e39bda",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39917",
+      "homepageseo": {
+        "title": "Joseph Honess' portfolio",
+        "description": "Hey! I'm Joseph and this is my portfolio.",
+        "image": null
+      },
+      "header___NODE": "DatoCmsHeader-361359-en",
+      "headertitle": "JH",
+      "hero___NODE": "DatoCmsAsset-347806",
+      "heroText": "Joseph Honess",
+      "about___NODE": "DatoCmsAsset-347829",
+      "abouttext": "About",
+      "cv___NODE": "DatoCmsAsset-347818",
+      "cvtext": "CV",
+      "works": "Works",
+      "contact___NODE": "DatoCmsAsset-347833",
+      "contacttext": "Contact",
+      "sections___NODE": [
+        "DatoCmsMediaLink-363403-en",
+        "DatoCmsMediaLink-363404-en"
+      ],
+      "seoMetaTags___NODE": "DatoCmsHomepage-361358-enSeoMetaTags",
+      "updatedAt": "2018-08-16T15:30:18.319Z"
+    },
+    "DatoCmsHeader-361359-en": {
+      "id": "DatoCmsHeader-361359-en",
+      "originalId": "361359",
+      "parent": null,
+      "children": [
+        "DatoCmsHeader-361359-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsHeader",
+        "contentDigest": "957cc6c4a0cb753011189705d40785f8",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39928",
+      "homelink": "JH",
+      "homelinkslug": null,
+      "nav___NODE": [
+        "DatoCmsLink-361376-en",
+        "DatoCmsLink-361375-en",
+        "DatoCmsLink-361377-en",
+        "DatoCmsLink-361378-en"
+      ],
+      "seoMetaTags___NODE": "DatoCmsHeader-361359-enSeoMetaTags",
+      "updatedAt": "2018-08-10T10:59:40.331Z"
+    },
+    "DatoCmsLink-361375-en": {
+      "id": "DatoCmsLink-361375-en",
+      "originalId": "361375",
+      "parent": null,
+      "children": [
+        "DatoCmsLink-361375-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsLink",
+        "contentDigest": "3548866b6b2a8c7d481ee04b793f1468",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39930",
+      "linktext": "About",
+      "linkurl": "about",
+      "seoMetaTags___NODE": "DatoCmsLink-361375-enSeoMetaTags",
+      "updatedAt": "2018-08-10T10:56:47.390Z"
+    },
+    "DatoCmsLink-361376-en": {
+      "id": "DatoCmsLink-361376-en",
+      "originalId": "361376",
+      "parent": null,
+      "children": [
+        "DatoCmsLink-361376-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsLink",
+        "contentDigest": "4057951aa3e2328144cccadcc27d04d7",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39930",
+      "linktext": "Work",
+      "linkurl": "work",
+      "seoMetaTags___NODE": "DatoCmsLink-361376-enSeoMetaTags",
+      "updatedAt": "2018-08-10T10:56:56.489Z"
+    },
+    "DatoCmsLink-361377-en": {
+      "id": "DatoCmsLink-361377-en",
+      "originalId": "361377",
+      "parent": null,
+      "children": [
+        "DatoCmsLink-361377-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsLink",
+        "contentDigest": "ae609d3369d1d2e82ad77c9452cea608",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39930",
+      "linktext": "CV",
+      "linkurl": "cv",
+      "seoMetaTags___NODE": "DatoCmsLink-361377-enSeoMetaTags",
+      "updatedAt": "2018-08-10T10:58:24.107Z"
+    },
+    "DatoCmsLink-361378-en": {
+      "id": "DatoCmsLink-361378-en",
+      "originalId": "361378",
+      "parent": null,
+      "children": [
+        "DatoCmsLink-361378-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsLink",
+        "contentDigest": "5cf915f0ef3d318006848d45ac9161c5",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39930",
+      "linktext": "Contact",
+      "linkurl": "contact",
+      "seoMetaTags___NODE": "DatoCmsLink-361378-enSeoMetaTags",
+      "updatedAt": "2018-08-10T10:58:33.280Z"
+    },
+    "DatoCmsContact-362263-en": {
+      "id": "DatoCmsContact-362263-en",
+      "originalId": "362263",
+      "parent": null,
+      "children": [
+        "DatoCmsAsset-347599",
+        "DatoCmsContact-362263-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsContact",
+        "contentDigest": "cd1ebf8823b1eabfc475b4f2ba8af972",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39921",
+      "header___NODE": "DatoCmsHeader-361359-en",
+      "contact": null,
+      "firstName": null,
+      "lastName": null,
+      "subject": null,
+      "emailAdress": null,
+      "messageNode___NODE": "DatoCmsContact-362263-enMessageTextNode",
+      "message": null,
+      "contactseo": {
+        "title": "Contact Me",
+        "description": "Contact me about about any questions or work. ",
+        "image": null
+      },
+      "background___NODE": "DatoCmsAsset-347599",
+      "headertitle": "Contact",
+      "seoMetaTags___NODE": "DatoCmsContact-362263-enSeoMetaTags",
+      "updatedAt": "2018-08-16T11:38:12.490Z"
+    },
+    "DatoCmsAbout-362286-en": {
+      "id": "DatoCmsAbout-362286-en",
+      "originalId": "362286",
+      "parent": null,
+      "children": [
+        "DatoCmsAsset-348212",
+        "DatoCmsAbout-362286-enPara1TextNode",
+        "DatoCmsAbout-362286-enPara2TextNode",
+        "DatoCmsAbout-362286-enPara3TextNode",
+        "DatoCmsAbout-362286-enPara4TextNode",
+        "DatoCmsAbout-362286-enPara5TextNode",
+        "DatoCmsAbout-362286-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsAbout",
+        "contentDigest": "c2fadeb96cbdda75f2cd61bd39998444",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39918",
+      "header": "About",
+      "headerlink___NODE": "DatoCmsHeader-361359-en",
+      "about": {
+        "title": "About Me",
+        "description": "All About Me! (My interests, hobbies, likes and dislikes)",
+        "image": null
+      },
+      "title": "!!! ALL ABOUT ME !!!",
+      "picturemontage___NODE": "DatoCmsAsset-348212",
+      "para1Node___NODE": "DatoCmsAbout-362286-enPara1TextNode",
+      "para1": "Hey! My name is Joseph Honess and I am a secondary school student at Mossbourne Community Academy in Hackney, London. I grew up with my mum and my sister. I also have many cats who are getting old; they are quite tranquil although sometimes annoying when they seek attention.",
+      "para2Node___NODE": "DatoCmsAbout-362286-enPara2TextNode",
+      "para2": "I enjoy coding and gaming and aspire to become an accomplished web and game developer. I plan on going on to 6th form before starting a degree apprenticeship in a company that involves software development. ",
+      "para3Node___NODE": "DatoCmsAbout-362286-enPara3TextNode",
+      "para3": "My hobbies involve gaming, coding, watching anime and rowing. While i am passionate about all of these, rowing takes up an especially large amount of my time as I train multiple times every day from Monday to Saturday. I enjoy rowing as it is more sociable than my other hobbies although I enjoy playing team video-games while talking to my friends. I also like it because of the fitness aspect, rowing keeps me fit even when I sit in my chair for the rest of my free time. ",
+      "para4Node___NODE": "DatoCmsAbout-362286-enPara4TextNode",
+      "para4": "I listen to music all the time and although I listen to all sorts of music my favorite is hip-hop and rap. My favorite rapper is NF but I also really like Hopsin, I think that both of them rap about life and they have very good lyrics although Hopsin is quite aggressive and rude. ",
+      "para5Node___NODE": "DatoCmsAbout-362286-enPara5TextNode",
+      "para5": "I do not like nuts, beans or spiders but other than that i am not fussy. I love meat. I would eat almost any meat but i also really enjoy Italian food like spaghetti.",
+      "seoMetaTags___NODE": "DatoCmsAbout-362286-enSeoMetaTags",
+      "updatedAt": "2018-08-17T14:24:23.531Z"
+    },
+    "DatoCmsCv-362287-en": {
+      "id": "DatoCmsCv-362287-en",
+      "originalId": "362287",
+      "parent": null,
+      "children": [
+        "DatoCmsCv-362287-enTextTextNode",
+        "DatoCmsCv-362287-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsCv",
+        "contentDigest": "fd5919d0847d1aba2e475d0ee3ca0eb5",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39919",
+      "header": "CV",
+      "textNode___NODE": "DatoCmsCv-362287-enTextTextNode",
+      "text": "Joseph Honess \n\nAddress:                  6 Conrad House, 6 Clifton Grove, E81DL \n\nTelephone:                +44   7835 472091 \n\nEmail:                    josephhoness1@gmail.com \n\n\nI am an extremely hard working and friendly individual who enjoys communicating with others from different cultures and backgrounds. I am also a highly self-motivated and outgoing person that enjoys and endeavors to complete every task to a high standard. \n\nI am currently in secondary school and I am planning to go to 6th form and then on to university or an apprenticeship degree so I am looking for a job for the weekends or the evenings. I am looking for any job without a qualification requirement. I am good at working with others, adults and kids of all ethnicities and backgrounds and I can execute most complex instructions to a good standard.  \n\nI haven’t yet completed my GCSEs however of the 11 that I am doing I am predicted to get:  \n\nEnglish language (7), English literature (7), Math (9), Biology (7), Chemistry (8), Physics (6), Spanish (7), Computer science (7), Economics (7), History (8), and I have already completed my RS GCSE in which I got a () \n\nAlso, I have completed work experience in multiple different areas of work: \n\nJuly-August 2018           E2X      - I did a four week work experience course in the e-commerce company E2X where I learned lots of valuable skills such as working well with others and all sorts of computer skills. It also advanced my problem-solving skills and my ability to complete tasks individually as I had to fix errors in code and persevere independently.  \n\nAugust 2018    Thrive Microfinance Zimbabwe - I experienced two weeks of work with Thrive Microfinance Zimbabwe where I did some pre-building work which involved removing 2 walls, a lean-to, and a kitchen along with general cleaning. This work helped me advance my technical ability using tools and emphasized the importance of safety while working.  \n\nBetween my work experience and my personal interests, I have gained valuable IT skills including touch typing, using Microsoft applications like word and excel. I can also program in front end languages like (html, css, js) React using GatsbyJS to create websites.I can also use GIT on the terminal and on github for source control for projects. \n\nWhen I'm at home I like to spend my time listening to music (hip hop), playing videogames like league of legends and call of duty and I also enjoy watching anime in my free time. One of my hobbies is rowing; I train for rowing every day from Monday to Saturday and I went to the London Youth Games 2018 where I placed 2nd in the individual race for my age group for indoor rowing. I also play other sports like football and basketball but I don’t play seriously.  \n\nReferences are available on request, \n\nThank you ",
+      "cv": {
+        "title": "CV",
+        "description": "My CV! (My experiences, skills, grades, aspirations, interests and personal info)",
+        "image": null
+      },
+      "headerlink___NODE": "DatoCmsHeader-361359-en",
+      "seoMetaTags___NODE": "DatoCmsCv-362287-enSeoMetaTags",
+      "updatedAt": "2018-08-16T09:00:22.668Z"
+    },
+    "DatoCmsWork-362288-en": {
+      "id": "DatoCmsWork-362288-en",
+      "originalId": "362288",
+      "parent": null,
+      "children": [
+        "DatoCmsAsset-347577",
+        "DatoCmsWork-362288-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsWork",
+        "contentDigest": "c1b46be6ca5dd3e0fb814ca665e38e08",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-39920",
+      "header": "Works",
+      "cv___NODE": "DatoCmsCv-362287-en",
+      "headerlink___NODE": "DatoCmsHeader-361359-en",
+      "works": {
+        "title": "My Work",
+        "description": "All of my works so far.",
+        "image": null
+      },
+      "hero___NODE": "DatoCmsAsset-347577",
+      "cvhero": "CV",
+      "seoMetaTags___NODE": "DatoCmsWork-362288-enSeoMetaTags",
+      "updatedAt": "2018-08-16T08:30:41.060Z"
+    },
+    "DatoCmsMediaLink-363403-en": {
+      "id": "DatoCmsMediaLink-363403-en",
+      "originalId": "363403",
+      "parent": null,
+      "children": [
+        "DatoCmsAsset-346449",
+        "DatoCmsMediaLink-363403-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsMediaLink",
+        "contentDigest": "779da54d35ecd2def87bcd9f583ad0b3",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-40163",
+      "backgroundImage___NODE": "DatoCmsAsset-346449",
+      "title": "About Me",
+      "pageLink___NODE": [
+        "DatoCmsAbout-362286-en"
+      ],
+      "seoMetaTags___NODE": "DatoCmsMediaLink-363403-enSeoMetaTags",
+      "updatedAt": "2018-08-15T08:46:33.691Z"
+    },
+    "DatoCmsMediaLink-363404-en": {
+      "id": "DatoCmsMediaLink-363404-en",
+      "originalId": "363404",
+      "parent": null,
+      "children": [
+        "DatoCmsAsset-346446",
+        "DatoCmsMediaLink-363404-enSeoMetaTags"
+      ],
+      "internal": {
+        "type": "DatoCmsMediaLink",
+        "contentDigest": "aa237c482bf50339b4b89591d0fa9510",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en",
+      "model___NODE": "DatoCmsModel-40163",
+      "backgroundImage___NODE": "DatoCmsAsset-346446",
+      "title": "CV",
+      "pageLink___NODE": [
+        "DatoCmsCv-362287-en"
+      ],
+      "seoMetaTags___NODE": "DatoCmsMediaLink-363404-enSeoMetaTags",
+      "updatedAt": "2018-08-15T08:46:49.649Z"
+    },
+    "DatoCmsSite-6813-en": {
+      "id": "DatoCmsSite-6813-en",
+      "name": "joseph honess portfolio",
+      "locales": [
+        "en"
+      ],
+      "theme": {
+        "logo": null,
+        "primaryColor": {
+          "red": 17,
+          "blue": 178,
+          "alpha": 255,
+          "green": 151
+        },
+        "lightColor": {
+          "red": 227,
+          "blue": 252,
+          "alpha": 255,
+          "green": 248
+        },
+        "darkColor": {
+          "red": 51,
+          "blue": 51,
+          "alpha": 255,
+          "green": 51
+        },
+        "accentColor": {
+          "red": 20,
+          "blue": 204,
+          "alpha": 255,
+          "green": 173
+        }
+      },
+      "domain": null,
+      "internalDomain": "joseph-honess-portfolio.admin.datocms.com",
+      "noIndex": false,
+      "globalSeo": null,
+      "originalId": "6813",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "DatoCmsSite",
+        "contentDigest": "705629bcc28379574aeb4787c0d31b88",
+        "owner": "gatsby-source-datocms"
+      },
+      "locale": "en"
+    },
+    "SitePage /dev-404-page": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page",
+      "component": "/Users/joseph.honess/Documents/joseph/portfolio/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "pluginCreatorId": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "componentPath": "/Users/joseph.honess/Documents/joseph/portfolio/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cd0f5b7149e08a2704ba993fdd20cbe3",
+        "description": "Plugin gatsby-plugin-remove-trailing-slashes",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9af7864d9ad3797c153f6ad22cbd23f8",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a371518f8f1a37fcc6d5dfe1a0bfbb54",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404",
+      "component": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "pluginCreatorId": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "componentPath": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/404.js",
+      "id": "SitePage /404",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c5b911eafc12f1d5efcc931d54692759",
+        "description": "Plugin gatsby-plugin-remove-trailing-slashes",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /About": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/About",
+      "component": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/About.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "pluginCreatorId": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "componentPath": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/About.js",
+      "id": "SitePage /About",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8e1491bd44723bd2597692c19fc10171",
+        "description": "Plugin gatsby-plugin-remove-trailing-slashes",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact",
+      "component": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "pluginCreatorId": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "componentPath": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/contact.js",
+      "id": "SitePage /contact",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "72411e3984177c032109364aadc193e5",
+        "description": "Plugin gatsby-plugin-remove-trailing-slashes",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /CV": {
+      "layout": "index",
+      "jsonName": "cv.json",
+      "internalComponentName": "ComponentCv",
+      "path": "/CV",
+      "component": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/CV.js",
+      "componentChunkName": "component---src-pages-cv-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "pluginCreatorId": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "componentPath": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/CV.js",
+      "id": "SitePage /CV",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fb1d95b42d21930cc8525e6ae7ed6350",
+        "description": "Plugin gatsby-plugin-remove-trailing-slashes",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work": {
+      "layout": "index",
+      "jsonName": "work.json",
+      "internalComponentName": "ComponentWork",
+      "path": "/work",
+      "component": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/work.js",
+      "componentChunkName": "component---src-pages-work-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "pluginCreatorId": "Plugin gatsby-plugin-remove-trailing-slashes",
+      "componentPath": "/Users/joseph.honess/Documents/joseph/portfolio/src/pages/work.js",
+      "id": "SitePage /work",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "da5bbbafcb5804e09db8614e75b404c6",
+        "description": "Plugin gatsby-plugin-remove-trailing-slashes",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {
+      "gatsby-source-datocms": {
+        "nodeIds": [
+          "DatoCmsField-152463",
+          "DatoCmsField-152467",
+          "DatoCmsField-152934",
+          "DatoCmsField-152935",
+          "DatoCmsField-152942",
+          "DatoCmsField-152937",
+          "DatoCmsField-152939",
+          "DatoCmsField-152936",
+          "DatoCmsField-152940",
+          "DatoCmsField-153525",
+          "DatoCmsField-152938",
+          "DatoCmsField-152941",
+          "DatoCmsField-153505",
+          "DatoCmsField-153509",
+          "DatoCmsModel-39917",
+          "DatoCmsField-152886",
+          "DatoCmsField-152928",
+          "DatoCmsField-152948",
+          "DatoCmsField-153644",
+          "DatoCmsField-154084",
+          "DatoCmsField-154198",
+          "DatoCmsField-154199",
+          "DatoCmsField-154200",
+          "DatoCmsField-154201",
+          "DatoCmsField-154202",
+          "DatoCmsModel-39918",
+          "DatoCmsField-152918",
+          "DatoCmsField-152919",
+          "DatoCmsField-152922",
+          "DatoCmsField-152931",
+          "DatoCmsModel-39919",
+          "DatoCmsField-152920",
+          "DatoCmsField-152921",
+          "DatoCmsField-152945",
+          "DatoCmsField-152950",
+          "DatoCmsField-153727",
+          "DatoCmsField-153728",
+          "DatoCmsModel-39920",
+          "DatoCmsField-152927",
+          "DatoCmsField-152943",
+          "DatoCmsField-152901",
+          "DatoCmsField-152902",
+          "DatoCmsField-152894",
+          "DatoCmsField-152903",
+          "DatoCmsField-152890",
+          "DatoCmsField-152949",
+          "DatoCmsField-153736",
+          "DatoCmsField-153781",
+          "DatoCmsModel-39921",
+          "DatoCmsField-152464",
+          "DatoCmsField-152470",
+          "DatoCmsField-152476",
+          "DatoCmsModel-39928",
+          "DatoCmsField-152465",
+          "DatoCmsModel-39929",
+          "DatoCmsField-152473",
+          "DatoCmsField-152474",
+          "DatoCmsModel-39930",
+          "DatoCmsField-153506",
+          "DatoCmsField-153507",
+          "DatoCmsField-153508",
+          "DatoCmsModel-40163",
+          "DatoCmsAsset-347806",
+          "DatoCmsAsset-347829",
+          "DatoCmsAsset-347818",
+          "DatoCmsAsset-347833",
+          "DatoCmsHomepage-361358-enSeoMetaTags",
+          "DatoCmsHeader-361359-enSeoMetaTags",
+          "DatoCmsLink-361375-enSeoMetaTags",
+          "DatoCmsLink-361376-enSeoMetaTags",
+          "DatoCmsLink-361377-enSeoMetaTags",
+          "DatoCmsLink-361378-enSeoMetaTags",
+          "DatoCmsContact-362263-enMessageTextNode",
+          "DatoCmsAsset-347599",
+          "DatoCmsContact-362263-enSeoMetaTags",
+          "DatoCmsAsset-348212",
+          "DatoCmsAbout-362286-enPara1TextNode",
+          "DatoCmsAbout-362286-enPara2TextNode",
+          "DatoCmsAbout-362286-enPara3TextNode",
+          "DatoCmsAbout-362286-enPara4TextNode",
+          "DatoCmsAbout-362286-enPara5TextNode",
+          "DatoCmsAbout-362286-enSeoMetaTags",
+          "DatoCmsCv-362287-enTextTextNode",
+          "DatoCmsCv-362287-enSeoMetaTags",
+          "DatoCmsAsset-347577",
+          "DatoCmsWork-362288-enSeoMetaTags",
+          "DatoCmsAsset-346449",
+          "DatoCmsMediaLink-363403-enSeoMetaTags",
+          "DatoCmsAsset-346446",
+          "DatoCmsMediaLink-363404-enSeoMetaTags",
+          "DatoCmsHomepage-361358-en",
+          "DatoCmsHeader-361359-en",
+          "DatoCmsLink-361375-en",
+          "DatoCmsLink-361376-en",
+          "DatoCmsLink-361377-en",
+          "DatoCmsLink-361378-en",
+          "DatoCmsContact-362263-en",
+          "DatoCmsAbout-362286-en",
+          "DatoCmsCv-362287-en",
+          "DatoCmsWork-362288-en",
+          "DatoCmsMediaLink-363403-en",
+          "DatoCmsMediaLink-363404-en",
+          "DatoCmsSite-6813-en"
+        ]
+      }
+    },
+    "PLUGINS_HASH": "4d9e3e5be16b1df2c7e582d1d5bdc09d"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "DatoCmsContact-362263-en": [
+        "/contact"
+      ],
+      "DatoCmsAsset-347599": [
+        "/contact"
+      ],
+      "DatoCmsCv-362287-en": [
+        "/CV"
+      ],
+      "DatoCmsHomepage-361358-en": [
+        "/"
+      ],
+      "DatoCmsAsset-347806": [
+        "/"
+      ],
+      "DatoCmsAsset-347829": [
+        "/"
+      ],
+      "DatoCmsAsset-347818": [
+        "/"
+      ],
+      "DatoCmsAsset-347833": [
+        "/"
+      ],
+      "DatoCmsWork-362288-en": [
+        "/work"
+      ],
+      "DatoCmsAsset-347577": [
+        "/work"
+      ],
+      "Site": [
+        "LAYOUT___index"
+      ],
+      "DatoCmsAbout-362286-en": [
+        "/About"
+      ],
+      "DatoCmsAsset-348212": [
+        "/About"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page"
+      ]
+    }
+  }
+}

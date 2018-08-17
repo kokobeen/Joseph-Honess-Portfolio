@@ -1,0 +1,84 @@
+.hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 55%;
+    display: flex;
+    content: center;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 8rem;
+    text-decoration: underline;
+}
+
+.homepage {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex:1;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.textInsideImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: center;
+    justify-content: center;
+}
+
+
+.bgc {
+    background-color: #C41616;
+}
+.montage {
+    max-width: 50%;
+    float: left;
+    width: fit-content;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+.rowa {
+    display: flex;
+    background-color: #C41616;
+}
+
+.hhh{
+    font-size: 4rem;
+    margin: 0.3em 0;
+    text-decoration: underline;
+    color: 000AFF;
+}
+
+.ggg {
+    width: 100%;
+    height: 100%;
+    background-color: #A85C5C;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    text-align: center;
+}
+
+.ttt {
+    font-size: 2rem;
+}
